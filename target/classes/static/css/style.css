@@ -1,0 +1,186 @@
+*{
+    font: normal 12pt 'Roboto Mono', monospace;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1C1C1C;
+    color:lavender;
+}
+
+.container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    justify-content: center;
+    border: 2px solid #767676;
+    border-radius: 2px;
+    width: 500px;
+}
+
+legend{
+    font-size: 18pt;
+    margin-left: 28px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.content{
+    padding: 40px;
+}
+
+.inputTxt{
+    background: none;
+    outline: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: lavender;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inputTxt:focus{
+    border-color: white;
+    transition: 0.3s;
+}
+
+.containerInputs{
+    display: flex;
+    margin-bottom: 20px;
+}   
+
+.inputRadios{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+label{
+    margin-left: 4px;
+}
+
+textarea{
+    background: none;
+    outline: 0;
+    color: lavender;
+    border: 2px solid #767676;
+    padding: 4px;
+    resize: none;
+    margin-bottom: 20px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+button{
+    cursor: pointer;
+    background-color: lavender;
+    color: #1C1C1C;
+    border: 1px solid lavender;
+    padding: 6px 12px 6px 12px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: #1C1C1C;
+    color: lavender;
+    transition: 0.3s;
+}
+
+p{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.divButtons{
+    display: flex;
+    justify-content: center;
+}
+
+#btnGraf{
+    margin-right: 20px;
+}
+
+#btnGraf:hover{
+    background-color: darkorchid;
+    color: gold;
+    border: 1px solid gold;
+    transition: 0.3s;
+}
+
+/*-------------------------------------------------------*/
+
+.area_banner{
+	background-size: 100% auto;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/12037032/pexels-photo-12037032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	background-size: cover;
+}
+
+.area_conteudo{
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.conteudo h1{
+    font-size: 40pt;
+}
+.conteudo p{
+    font-size: 14pt;
+    text-align: center;
+}
+
+.leitura{
+    margin: 26px;
+    padding: 40px;
+    border: 1px solid #767676;
+    border-radius: 10px;
+}
+
+.leitura h3{
+    font-size: 20pt;
+}
+.leitura p{
+    text-align: left;
+}
+
+.leitura img{
+    border: 2px solid lavender;
+    border-radius: 10px;
+    width: 650px;
+}
+
+.leitura a{
+    color:dodgerblue;
+}
+
+footer{
+    margin: 60px 20px 20px 20px;
+}
+
+.dados{
+    margin: 26px;
+    width: 800px;
+    padding: 40px;
+    border: 1px solid #767676;
+    border-radius: 10px;
+}
+
+.dados p{
+    font-size: 14pt;
+}
+
+.cad{
+    color: lightgreen;
+    word-wrap: break-word;
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br" xmlns:th="<http://thymeleaf.org>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feedback</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>Feedback</legend>
+            <div class="content">
+                <form action="registro" method="post">
+                    <input name="nome" type="text" class="inputTxt" placeholder="Nome completo" autocomplete="off"><br>
+                    <input name="email" type="text" class="inputTxt" placeholder="Email" autocomplete="off"><br>
+                    <div class="containerInputs">
+                        <div class="inputRadios">
+                            <input value="Aluno" name="tipoUsuario" type="radio">
+                            <label>Aluno</label>
+                        </div>
+                        <div class="inputRadios">
+                            <input value="Professor" name="tipoUsuario" type="radio">
+                            <label>Professor</label>
+                        </div>
+                    </div>
+                    <textarea name="opiniao" cols="30" rows="10" placeholder="Sua opinião"></textarea><br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br" xmlns:th="<http://thymeleaf.org>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <div class="content">
+                <p>Integrantes:<br>Emily Gonçalves<br>Leticia Martins<br>Pedro Borges</p><br>
+                <p>Bem-vindo(a) ao nosso trabaho realizado no spring. 
+                O assunto abordado será o Grafite no Brasil, 
+                em que você irá conhecer mais sobre a história e curiosidades sobre esta arte de rua.
+                Acesse nossa aba de Feedback para trazer sua opinião e sugestão.</p><br>
+                <p>Porta de acesso: 5000</p><br>
+                <div class="divButtons">
+                    <a th:href="@{/grafite}">
+                        <button id="btnGraf">Grafite</button>
+                    </a>
+                    <a th:href="@{/feedback}">
+                        <button>Feedback</button>
+                    </a>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>
